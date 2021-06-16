@@ -35,9 +35,26 @@ header {
 }
 
 .big-rose {
+    position: absolute;
     height: 200px;
+    top: 10%;
+    right: 40%;
 }
 
-.big-rose {
+.small-rose {
     height: 100px;
+    position: absolute;
+    top: 30%;
+    right: 10%;
+}
+
+section {
+    min-height: 100vh;
+    color: #834d4d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    background-color: wheat;
 }
