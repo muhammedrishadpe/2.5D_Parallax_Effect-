@@ -8,7 +8,10 @@
 header {
     min-height: 100vh;
     background: linear-gradient(240deg, #834d4d, #503d3d);
+    position: relative;
     color: white;
+    font-family: sans-serif;
+    z-index: -1;
 }
 
 .intro-text h1 {
